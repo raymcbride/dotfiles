@@ -1,0 +1,5 @@
+base:
+  "*":
+    - bash
+    - general
+    - vim
