@@ -1,3 +1,5 @@
+export PATH=$HOME/local/bin:$HOME/.local/bin:$PATH
+
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -57,6 +59,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-if [ -f ~/.local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh ]; then
-    source ~/.local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh
+if [ -f ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh ]; then
+    source ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
 fi
