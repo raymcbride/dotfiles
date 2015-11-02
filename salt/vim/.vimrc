@@ -2,10 +2,15 @@ set nocompatible
 filetype off
 
 " setup and run vundle
-set rtp+=~/.vim/bundle/vundle/
+if isdirectory(expand("~/.vundle/Vundle.vim"))
+    set rtp+=~/.vim/.vundle/Vundle.vim
+else
+    set rtp+=~/.vim/vundle
+endif
+
 call vundle#begin('$HOME/.vundle/')
 
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/syntastic'
