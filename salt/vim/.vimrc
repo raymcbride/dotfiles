@@ -2,13 +2,10 @@ set nocompatible
 filetype off
 
 " setup and run vundle
-if isdirectory(expand("~/.vundle/Vundle.vim"))
-    set rtp+=~/.vim/.vundle/Vundle.vim
-else
-    set rtp+=~/.vim/vundle
-endif
+set rtp+=~/.vim/bundle/Vundle.vim
 
-call vundle#begin('$HOME/.vundle/')
+
+call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
