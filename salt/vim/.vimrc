@@ -32,6 +32,7 @@ Plugin 'python.vim'
 Plugin 'nginx.vim'
 Plugin 'othree/html5.vim'
 Plugin 'groenewege/vim-less'
+Plugin 'isRuslan/vim-es6'
 
 call vundle#end() " required
 set encoding=utf-8
