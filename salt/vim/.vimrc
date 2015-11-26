@@ -399,6 +399,7 @@ let g:jedi#show_call_signatures = "0"
 " Auto-wrap git commit lines
 au FileType gitcommit set tw=72
 
+let g:Powerline_symbols = 'fancy'
 set rtp+=~/.local/lib/python2.7/site-packages/powerline/bindings/vim
 
 " CtrlP options
