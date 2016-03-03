@@ -24,7 +24,7 @@ system-fc-cache:
       - file: config-dir
 
 config-dir:
-  file.directory:
+  file.recurse:
     - name: ~/.config/fontconfig/conf.d
     - makedirs: True
 
