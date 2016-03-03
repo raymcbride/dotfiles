@@ -1,8 +1,8 @@
-vim:
+tmux:
   pkg:
     - installed
 
-~/.vimrc:
+~/.tmux.conf:
   file.managed:
     - source: salt://tmux/.tmux.conf
     - template: jinja
