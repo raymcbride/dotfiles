@@ -1,7 +1,12 @@
- *.py[co]
- .*.sw[op]
- .netrwhist
- vim/.vim/vundle/
- .*~
- build
- npm-debug.log
+*.py[co]
+.*.sw[op]
+*.sw[op]
+.netrwhist
+vim/.vim/vundle/
+.*~
+*~
+*#
+.*#
+lost+found
+build
+npm-debug.log
