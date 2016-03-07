@@ -1,5 +1,12 @@
-#Ray's dotfiles
+##Ray's dotfiles
 
-Run using Salt Masterless:
+#Requires
+
+[Salt](https://docs.saltstack.com/en/latest/topics/tutorials/quickstart.html)
+
+
+#Run
+
+using Salt Masterless:
     
     salt-call --local state.highstate
