@@ -1,11 +1,11 @@
-##Ray's dotfiles
+#Ray's dotfiles
 
-#Requires
+##Requires
 
 [Salt](https://docs.saltstack.com/en/latest/topics/tutorials/quickstart.html)
 
 
-#Run
+##Run
 
 using Salt Masterless:
     
