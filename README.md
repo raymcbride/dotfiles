@@ -2,7 +2,7 @@
 
 ##Requires
 
-[Salt](https://docs.saltstack.com/en/latest/topics/tutorials/quickstart.html)
+[SaltStack](https://docs.saltstack.com/en/latest/topics/tutorials/quickstart.html)
 
 
 ##Run
